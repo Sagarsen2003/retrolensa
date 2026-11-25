@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retrolensa"
+version = "0.1.0"
+description = "Real-time two-hand spatial tracking portal with 8 live OpenCV visual filters powered by MediaPipe."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mediapipe>=0.10.30",
+    "opencv-python>=4.9.0",
+    "numpy>=1.26.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+retrolensa = "retrolensa.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

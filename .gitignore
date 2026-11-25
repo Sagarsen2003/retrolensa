@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# Models & snapshots
+models/*.task
+models/*.part
+snapshots/
+
+# Tests & caches
+.pytest_cache/
