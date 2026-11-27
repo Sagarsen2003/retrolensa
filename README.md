@@ -2,6 +2,18 @@
 
 **Retrolensa** is an offline, real-time Python hand-tracking filter app powered by **Google MediaPipe**, **OpenCV**, and **NumPy**. Holding both hands up creates a dynamic 4-corner live filter portal anchored between your hands—stretching, rotating, and moving seamlessly across your webcam feed while rendering 8 live computer-vision effects strictly inside the portal.
 
+![Retrolensa Two-Hand Thermal Portal Demo](assets/demo_portal_thermal.png)
+
+## Live Spatial Controls in Action
+
+Pull your hands apart to stretch the frame, tilt them to rotate the portal in real time, or raise a single open palm to cycle through filters with built-in cooldown protection:
+
+![Retrolensa Tilted Glitch Portal Demo](assets/demo_portal_tilted_glitch.png)
+
+## All 8 Real-Time Visual Filters
+
+![Retrolensa 8-Filter Gallery](assets/demo_all_filters.png)
+
 ## Features
 
 ### Spatial Hand-Tracking Controls
